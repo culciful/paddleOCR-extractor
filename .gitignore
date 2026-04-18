@@ -1,4 +1,7 @@
-/__pycache__/
-/.vscode/
-/*.pdf
-/output/
+__pycache__/
+.vscode/
+*.pdf
+output/
+*.egg-info/
+dist/
+build/

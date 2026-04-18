@@ -1,0 +1,18 @@
+[project]
+name = "use-paddle-ocr"
+version = "0.1.0"
+description = "PaddleOCR pipeline for dictionary-style biographies"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pypdf>=4",
+  "paddleocr>=3",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["use_paddle_ocr"]

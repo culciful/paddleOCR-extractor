@@ -1,0 +1,7 @@
+# OCR / PDF
+pypdf>=4.0
+paddleocr>=3.0
+
+# Paddle: install the wheel that matches your OS/CUDA from
+# https://www.paddlepaddle.org.cn/install/quick (e.g. paddlepaddle-gpu vs paddlepaddle).
+
